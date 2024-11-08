@@ -1,0 +1,42 @@
+.character-list {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 8px;
+  width: 45%;
+  height: 200px;
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.character-card h2 {
+  font-size: 1.2em;
+  margin: 0 0 8px 0;
+}
+
+.character-card p {
+  margin: 4px 0;
+  font-size: 0.9em;
+}
+
+.character-image {
+  width: 35%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
